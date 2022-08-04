@@ -224,3 +224,22 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  .social {
+    display: none;
+  }
+  
+  .nav-list-item {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .blog {
+    width: 100%;
+  }
+}
