@@ -246,12 +246,20 @@ footer {
   
   .blog {
     width: 100%;
-    margin-right: 0;
+    margin: 0;
   }
 
   .blog-box {
-    padding-top: 50px;
-    margin: 0 auto;
+    margin: 0 2%;
+  }
+  
+  .blog-imag {
+    width: 49%;
+  }
+  
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
   }
   
   .category {
@@ -298,13 +306,5 @@ footer {
     width: 185px;
     height: 185px;
     margin-bottom: 15px;
-  }
-  
-  footer {
-    width: 100%;
-    height: 120px;
-    text-align: center;
-    line-height: 120px;
-    background-color: #848282;
   }
 }
